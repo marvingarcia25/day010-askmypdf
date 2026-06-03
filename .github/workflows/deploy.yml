@@ -1,0 +1,45 @@
+name: Deploy AskMyPDF
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build React
+        working-directory: ClientApp
+        run: |
+          npm install --legacy-peer-deps
+          npm run build
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Publish
+        run: dotnet publish AskMyPDF.csproj -c Release -o ./publish
+
+      - name: Zip
+        run: cd publish && zip -r ../deploy.zip .
+
+      - name: Deploy to Azure (Kudu)
+        env:
+          KUDU_USER: ${{ secrets.KUDU_USER }}
+          KUDU_PASS: ${{ secrets.KUDU_PASS }}
+        run: |
+          curl -X POST \
+            "https://askmypdf-day010.scm.azurewebsites.net/api/zipdeploy" \
+            --user "$KUDU_USER:$KUDU_PASS" \
+            --data-binary @deploy.zip \
+            -H "Content-Type: application/zip"
