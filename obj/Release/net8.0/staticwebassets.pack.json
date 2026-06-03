@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\assets\\index-CX_fNfL6.css",
+      "PackagePath": "staticwebassets\\assets\\index-CX_fNfL6.css"
+    },
+    {
+      "Id": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\assets\\index-fveOxdxO.js",
+      "PackagePath": "staticwebassets\\assets\\index-fveOxdxO.js"
+    },
+    {
+      "Id": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.AskMyPDF.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.AskMyPDF.props",
+      "PackagePath": "build\\AskMyPDF.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AskMyPDF.props",
+      "PackagePath": "buildMultiTargeting\\AskMyPDF.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.AskMyPDF.props",
+      "PackagePath": "buildTransitive\\AskMyPDF.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

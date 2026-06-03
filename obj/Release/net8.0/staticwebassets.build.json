@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "r5DSmkh11t03JBnz08OdSjf0QVp/DUF/QadFotRldhY=",
+  "Source": "AskMyPDF",
+  "BasePath": "_content/AskMyPDF",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AskMyPDF\\wwwroot",
+      "Source": "AskMyPDF",
+      "ContentRoot": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\",
+      "BasePath": "_content/AskMyPDF",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\assets\\index-CX_fNfL6.css",
+      "SourceId": "AskMyPDF",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\",
+      "BasePath": "_content/AskMyPDF",
+      "RelativePath": "assets/index-CX_fNfL6.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-CX_fNfL6.css"
+    },
+    {
+      "Identity": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\assets\\index-fveOxdxO.js",
+      "SourceId": "AskMyPDF",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\",
+      "BasePath": "_content/AskMyPDF",
+      "RelativePath": "assets/index-fveOxdxO.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-fveOxdxO.js"
+    },
+    {
+      "Identity": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\index.html",
+      "SourceId": "AskMyPDF",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marvi\\source\\repos\\1000\\day10_AskMyPDF\\wwwroot\\",
+      "BasePath": "_content/AskMyPDF",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
